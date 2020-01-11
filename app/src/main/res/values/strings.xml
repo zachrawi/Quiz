@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="answer_true">True</string>
+    <string name="answer_false">False</string>
+
+    <string name="question_1">Chewing gum takes seven years for a person to digest</string>
+    <string name="question_2">The Great Wall of China can be seen with the unaided eye from space</string>
+    <string name="question_3">If a piece of paper was folded 45 times, it would reach to the moon</string>
+    <string name="question_4">Bananas grow on trees</string>
+    <string name="question_5">Sugar makes children hyper</string>
+    <string name="question_6">There are more stars in space than grains of sand on every beach in the world</string>
+    <string name="question_7">Pirates wore eye patches so they could see better in the dark</string>
+    <string name="question_8">For every human on Earth there are 1.6 million ants</string>
+    <string name="question_9">An octopus has three hearts</string>
+    <string name="question_10">It rains diamonds on Saturn and Jupiter</string>
+</resources>

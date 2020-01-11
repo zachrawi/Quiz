@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kuis</string>
+    <string name="answer_false">Salah</string>
+    <string name="answer_true">Benar</string>
+
+    <string name="question_1">Menelan permen karet membutuhkan waktu tujuh tahun untuk dicerna manusia</string>
+    <string name="question_2">Tembok Besar Cina dapat dilihat dengan mata telanjang dari luar angkasa</string>
+    <string name="question_3">Jika selembar kertas dilipat 45 kali, ketinggiannya akan mencapai bulan</string>
+    <string name="question_4">Pisang tumbuh di pohon</string>
+    <string name="question_5">Gula membuat anak-anak hiper aktif</string>
+    <string name="question_6">Ada lebih banyak bintang di ruang angkasa daripada butiran pasir di setiap pantai di dunia</string>
+    <string name="question_7">Bajak laut mengenakan penutup mata sebelah agar mereka bisa melihat lebih baik dalam gelap</string>
+    <string name="question_8">Untuk setiap manusia di Bumi ada 1,6 juta semut</string>
+    <string name="question_9">Seekor gurita memiliki tiga jantung</string>
+    <string name="question_10">Hujan di Saturnus dan Jupiter berupa berlian</string>
+</resources>

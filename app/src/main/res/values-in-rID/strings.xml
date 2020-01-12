@@ -14,4 +14,6 @@
     <string name="question_8">Untuk setiap manusia di Bumi ada 1,6 juta semut</string>
     <string name="question_9">Seekor gurita memiliki tiga jantung</string>
     <string name="question_10">Hujan di Saturnus dan Jupiter berupa berlian</string>
+    <string name="answer_correct">Jawaban Anda benar</string>
+    <string name="answer_wrong">Jawaban Anda salah</string>
 </resources>

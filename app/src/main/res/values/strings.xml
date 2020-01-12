@@ -13,4 +13,6 @@
     <string name="question_8">For every human on Earth there are 1.6 million ants</string>
     <string name="question_9">An octopus has three hearts</string>
     <string name="question_10">It rains diamonds on Saturn and Jupiter</string>
+    <string name="answer_correct">Correct</string>
+    <string name="answer_wrong">Wrong</string>
 </resources>

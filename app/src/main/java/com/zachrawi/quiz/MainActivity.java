@@ -1,14 +1,19 @@
 package com.zachrawi.quiz;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private static String TAG = "Quiz";
+    
     private TextView textViewQuestion;
     private TextView textViewScore;
     private Button buttonTrue;
@@ -39,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 new Question(R.string.question_9, true),
                 new Question(R.string.question_10, true),
         };
-
-        showQuestion();
 
         buttonTrue.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -75,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
                 showQuestion();
             }
         });
+
+        Log.d(TAG, "onCreate: ");
     }
 
     private void showQuestion() {
@@ -88,5 +93,31 @@ public class MainActivity extends AppCompatActivity {
             buttonTrue.setEnabled(false);
             buttonFalse.setEnabled(false);
         }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        showQuestion();
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        outState.putInt("index", index);
+        outState.putInt("score", score);
+
+        super.onSaveInstanceState(outState);
+
+        Log.d(TAG, "onSaveInstanceState: ");
+    }
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        index = savedInstanceState.getInt("index");
+        score = savedInstanceState.getInt("score");
+
+        Log.d(TAG, "onRestoreInstanceState: ");
     }
 }
